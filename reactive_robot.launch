@@ -1,0 +1,13 @@
+<launch>
+  <!-- Include the reactive_robot_sim.launch file -->
+  <include file="$(find reactive_robot)/launch/reactive_robot_sim.launch" />
+
+  <!-- Run the keyboard_teleop.py script -->
+  <node
+    name="keyboard_teleop"
+    pkg="reactive_robot"
+    type="keyboard_teleop.py"
+    output="screen"
+    launch-prefix="python3"
+  />
+</launch>
