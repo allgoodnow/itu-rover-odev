@@ -62,4 +62,4 @@ if __name__ == '__main__':
     rate = rospy.Rate(10)
     while not rospy.is_shutdown():
         rate.sleep()
-    #rospy.spin'i kullandigimda looptan cikmiyordu be sekilde sorun cozuldu
+    #rospy.spin'i kullandigimda looptan cikmiyordu bu sekilde sorun cozuldu
